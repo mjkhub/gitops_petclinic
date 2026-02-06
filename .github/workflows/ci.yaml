@@ -6,7 +6,7 @@ name: Build, Push, and Update Deployment
 on:
   push:
     branches:
-      - main  # main 브랜치에 푸시가 발생하면 실행
+      - master  # main 브랜치에 푸시가 발생하면 실행
     paths:
       - 'src/**'
       - 'k8s/**'
